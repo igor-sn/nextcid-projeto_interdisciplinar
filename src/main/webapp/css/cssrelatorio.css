@@ -1,0 +1,121 @@
+@charset "ISO-8859-1";
+
+
+
+
+.questao {
+
+	background-color: rgb(247, 247, 247);
+	width: 95%;
+	border-radius: 10px;
+	position: relative;
+	margin: auto auto auto auto;
+
+}
+
+hr{
+	border: none;
+    height: 1px;
+    color: black;
+    background-color: black;
+}
+
+#linhabranca{
+	border: none;
+    height: 4px;
+    background-color: white;
+}
+
+.questao h1{
+	text-align: left;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+.questao p{
+	text-align: left;
+	font-size: 12pt;
+	font-weight: normal;
+	color: black;
+	position: relative;
+	margin: 18pt auto auto auto;
+	
+}
+
+#enunciado{
+	font-weight: bold;
+}
+
+#respcorreta {
+
+	background-color: #dfffdf;
+	width: 100%;
+	border-radius: 10px;
+	font-size: 12pt;
+	position: relative;
+	margin: auto auto 20px auto;
+	color: green;
+	font-weight: normal;
+	border: 2px solid green;
+	border-radius: 10px;
+}
+
+#alternativas{
+	font-size: 12pt;
+	position: relative;
+	font-weight: normal;
+	margin-top: 10pt;
+	magin-bottom: 10pt;
+}
+
+#circulos{
+	font-size: 12pt;
+	border: 2px solid #000000;
+	border-radius: 50%;
+	text-align: center;
+	font-weight: bold;
+	background-color: black;
+	color: white;
+}
+
+
+
+.infoquestao {
+
+	background-color: rgb(216, 216, 216);
+	width: 100%;
+	border: 2px solid black;
+	border-radius: 10px;
+	position: relative;
+	margin: auto auto auto auto;
+	
+
+}
+.infoquestao h1{
+	color: black;
+	font-size: 12pt;
+	font-weight: bold;
+
+}
+
+.infoquestao p{
+	display: inline-block;
+	color: black;
+	font-size: 11pt;
+	position: relative;
+	font-weight:normal;
+	margin: auto auto auto auto;
+
+}
+
+#titulo {
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
